@@ -56,5 +56,5 @@ Using a Learning Rate of 0.001 and Momentum of 0.9, Following were the Results:
 ![Validation Loss Curve](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/task2_vgg16_validation_loss_curve.png)
 
 **Confusion Matrix on Test Data**
-![Confusion Matrix on Test Data]https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/task2_vgg16_confusion_matrix.png)
+![Confusion Matrix on Test Data](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/task2_vgg16_confusion_matrix.png)
 
