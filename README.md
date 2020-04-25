@@ -8,9 +8,15 @@ be used for clinical purposes.
 [Click here to to Download the Dataset.](https://drive.google.com/file/d/1-HQQciKYfwAO3oH7ci6zhg45DduvkpnK/view)
 
 ## Task-1: VGG-16
-### Experiment-1
-Using a Learning Rate of 0.0001 and Momentum of 0.9, Following were the Results:
-- **Training Accuracy**: 92%
-- **Validation Accuracy**: 89%
-- **Testing Accuracy**: 93%
+Using a Learning Rate of 0.001 and Momentum of 0.9, Following were the Results:
+- **Training Accuracy**: 95%
+- **Validation Accuracy**: 92%
+- **Testing Accuracy**: 96%
+
+## Task-1: ResNet-18
+Using a Learning Rate of 0.001 and Momentum of 0.9, Following were the Results:
+- **Training Accuracy**: 87%
+
+- **Validation Accuracy**: 92%
+- **Testing Accuracy**: 96%
 
