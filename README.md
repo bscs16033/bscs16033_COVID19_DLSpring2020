@@ -16,7 +16,22 @@ Using a Learning Rate of 0.001 and Momentum of 0.9, Following were the Results:
 ## Task-1: ResNet-18
 Using a Learning Rate of 0.001 and Momentum of 0.9, Following were the Results:
 - **Training Accuracy**: 87%
+- **Validation Accuracy**: 83%
+- **Testing Accuracy**: 91%
+- **F1 Score**: 0.9255
+
+**Training Accuracy Curve**
 ![Training Accuracy Curve](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/task1_resnet18_training_accuracy_curve.png)
-- **Validation Accuracy**: 92%
-- **Testing Accuracy**: 96%
+
+**Training Loss Curve**
+![Training Loss Curve](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/task1_resnet18_training_loss_curve.png)
+
+**Validation Accuracy Curve**
+![Validation Accuracy Curve](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/task1_resnet18_validation_accuracy_curve.png)
+
+**Validation Loss Curve**
+![Validation Loss Curve](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/task1_resnet18_validation_loss_curve.png)
+
+**Confusion Matrix on Test Data**
+![Confusion Matrix on Test Data](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/task1_resnet18_confusion_matrix.png)
 
