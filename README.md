@@ -35,3 +35,26 @@ Using a Learning Rate of 0.001 and Momentum of 0.9, Following were the Results:
 **Confusion Matrix on Test Data**
 ![Confusion Matrix on Test Data](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/task1_resnet18_confusion_matrix.png)
 
+
+## Task-2: VGG-16
+Using a Learning Rate of 0.001 and Momentum of 0.9, Following were the Results:
+- **Training Accuracy**: 94%
+- **Validation Accuracy**: 92%
+- **Testing Accuracy**: 97%
+- **F1 Score**: 0.9792
+
+**Training Accuracy Curve**
+![Training Accuracy Curve](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/task2_vgg16_training_accuracy_curve.png)
+
+**Training Loss Curve**
+![Training Loss Curve](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/task2_vgg16_training_loss_curve.png)
+
+**Validation Accuracy Curve**
+![Validation Accuracy Curve](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/task2_vgg16_validation_accuracy_curve.png)
+
+**Validation Loss Curve**
+![Validation Loss Curve](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/task2_vgg16_validation_loss_curve.png)
+
+**Confusion Matrix on Test Data**
+![Confusion Matrix on Test Data]https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/task2_vgg16_confusion_matrix.png)
+
