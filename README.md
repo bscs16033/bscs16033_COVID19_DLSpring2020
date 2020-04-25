@@ -1,1 +1,1 @@
-# bscs16033_COVID19_DLSpring2020
+# Detecting Coronavirus Infections through Chest X-Ray Images
