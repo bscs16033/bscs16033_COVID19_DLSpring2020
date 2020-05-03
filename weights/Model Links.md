@@ -16,4 +16,4 @@
 [Click here to to Download the VGG-16.](https://drive.google.com/open?id=1rEMnI7naUXEgu9JygASOp-tcuSThH-bf)
 
 ## Focal Loss: ResNet18
-[Click here to to Download the VGG-18.](https://drive.google.com/open?id=1-1IHWNW2fZAqJZSkV6QdwGjJJ4DQaEZ4)
+[Click here to to Download the ResNet-18.](https://drive.google.com/open?id=1-1IHWNW2fZAqJZSkV6QdwGjJJ4DQaEZ4)
