@@ -79,7 +79,7 @@ Using a learning rate of 0.001 and 2 FC Layer of sizes 25088x430 and 430x3, I go
 ![Training Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_vgg16_training_cm.png)
 
 **Training Loss Curve**
-![Training Loss Curve](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_vgg16_validation_cm.png)
+![Validation Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_vgg16_validation_cm.png)
 
 ### ResNet-18
 Using a learning rate of 0.01 and a single FC Layer of size 430x3, I got the following results:
@@ -90,7 +90,7 @@ Using a learning rate of 0.01 and a single FC Layer of size 430x3, I got the fol
 ![Training Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_resnet18_training_cm.png)
 
 **Training Loss Curve**
-![Training Loss Curve](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_resnet18_validation_cm.png)
+![Validation Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_resnet18_validation_cm.png)
 
 
 ## Results With Focal Loss
@@ -103,7 +103,7 @@ Using a learning rate of 0.001 and a single FC Layer of size 1024x3, alpha=4 and
 ![Training Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_vgg16_training_cm.png)
 
 **Training Loss Curve**
-![Training Loss Curve](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_vgg16_validation_cm.png)
+![Validation Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_vgg16_validation_cm.png)
 
 ### ResNet-18
 Using a learning rate of 0.001 and a single FC Layer of size 430x3, alpha=4 and gamma=0.8, I got the following results:
@@ -114,5 +114,5 @@ Using a learning rate of 0.001 and a single FC Layer of size 430x3, alpha=4 and 
 ![Training Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_resnet18_training_cm.png)
 
 **Training Loss Curve**
-![Training Loss Curve](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_resnet18_validation_cm.png)
+![Validation Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_resnet18_validation_cm.png)
 
