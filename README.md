@@ -62,3 +62,9 @@ Using a Learning Rate of 0.001 and Momentum of 0.9, Following were the Results:
 **Confusion Matrix on Test Data**
 ![Confusion Matrix on Test Data](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/task2_vgg16_confusion_matrix.png)
 
+## Pre-Trained Model Links for Focal Loss
+### Focal Loss: VGG16
+[Click here to to Download the VGG-16.](https://drive.google.com/open?id=1rEMnI7naUXEgu9JygASOp-tcuSThH-bf)
+
+### Focal Loss: ResNet18
+[Click here to to Download the ResNet-18.](https://drive.google.com/open?id=1-1IHWNW2fZAqJZSkV6QdwGjJJ4DQaEZ4)
