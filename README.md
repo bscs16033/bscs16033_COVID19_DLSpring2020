@@ -68,3 +68,51 @@ Using a Learning Rate of 0.001 and Momentum of 0.9, Following were the Results:
 
 ### Focal Loss: ResNet18
 [Click here to to Download the ResNet-18.](https://drive.google.com/open?id=1-1IHWNW2fZAqJZSkV6QdwGjJJ4DQaEZ4)
+
+## Results Without Focal Loss
+### VGG-16
+Using a learning rate of 0.001 and 2 FC Layer of sizes 25088x430 and 430x3, I got the following results:
+- **Training Accuracy**: 86%
+- **Validation Accuracy**: 87%
+
+**Training Data Confusiom Matrix**
+![Training Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_vgg16_training_cm.png)
+
+**Training Loss Curve**
+![Training Loss Curve](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_vgg16_validation_cm.png)
+
+### ResNet-18
+Using a learning rate of 0.01 and a single FC Layer of size 430x3, I got the following results:
+- **Training Accuracy**: 82%
+- **Validation Accuracy**: 83%
+
+**Training Data Confusiom Matrix**
+![Training Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_resnet18_training_cm.png)
+
+**Training Loss Curve**
+![Training Loss Curve](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_resnet18_validation_cm.png)
+
+
+## Results With Focal Loss
+### VGG-16
+Using a learning rate of 0.001 and a single FC Layer of size 1024x3, alpha=4 and gamma=0.8, I got the following results:
+- **Training Accuracy**: 91%
+- **Validation Accuracy**: 91%
+
+**Training Data Confusiom Matrix**
+![Training Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_vgg16_training_cm.png)
+
+**Training Loss Curve**
+![Training Loss Curve](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_vgg16_validation_cm.png)
+
+### ResNet-18
+Using a learning rate of 0.001 and a single FC Layer of size 430x3, alpha=4 and gamma=0.8, I got the following results:
+- **Training Accuracy**: 87%
+- **Validation Accuracy**: 87%
+
+**Training Data Confusiom Matrix**
+![Training Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_resnet18_training_cm.png)
+
+**Training Loss Curve**
+![Training Loss Curve](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_resnet18_validation_cm.png)
+
