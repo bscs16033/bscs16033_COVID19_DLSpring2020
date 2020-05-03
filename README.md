@@ -7,6 +7,10 @@ be used for clinical purposes.
 ## Dataset Link
 [Click here to to Download the Dataset.](https://drive.google.com/file/d/1-HQQciKYfwAO3oH7ci6zhg45DduvkpnK/view)
 
+### Dataset for Focal Loss
+[Click here to to Download the Dataset.](https://drive.google.com/file/d/1eytbwaLQBv12psV8I-aMkIli9N3bf8nO/view)
+
+
 ## Task-1: VGG-16
 Using a Learning Rate of 0.001 and Momentum of 0.9, Following were the Results:
 - **Training Accuracy**: 95%
