@@ -73,46 +73,86 @@ Using a Learning Rate of 0.001 and Momentum of 0.9, Following were the Results:
 ### VGG-16
 Using a learning rate of 0.001 and 2 FC Layer of sizes 25088x430 and 430x3, I got the following results:
 - **Training Accuracy**: 86%
+- **Training F1 Score**: 0.8982
 - **Validation Accuracy**: 87%
+- **Validatin F1 Score**: 0.8966
 
 **Training Data Confusiom Matrix**
-![Training Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_vgg16_training_cm.png)
+![Confusion Matrix for Class covid-19](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_vgg16_training_covid19.png)
+
+![Confusion Matrix for Class normal](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_vgg16_training_normal.png)
+
+![Confusion Matrix for Class pneumonia](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_vgg16_training_pneumonia.png)
 
 **Validation Data Confusion Matrix**
-![Validation Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_vgg16_validation_cm.png)
+![Confusion Matrix for Class covid-19](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_vgg16_validation_covid19.png)
+
+![Confusion Matrix for Class normal](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_vgg16_validation_normal.png)
+
+![Confusion Matrix for Class pneumonia](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_vgg16_validation_pneumonia.png)
 
 ### ResNet-18
 Using a learning rate of 0.01 and a single FC Layer of size 430x3, I got the following results:
 - **Training Accuracy**: 82%
+- **Training F1 Score**: 0.8714
 - **Validation Accuracy**: 83%
+- **Validation F1 Score**: 0.8773
 
 **Training Data Confusiom Matrix**
-![Training Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_resnet18_training_cm.png)
+![Confusion Matrix for Class covid-19](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_resnet18_training_covid19.png)
+
+![Confusion Matrix for Class normal](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_resnet18_training_normal.png)
+
+![Confusion Matrix for Class pneumonia](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_resnet18_training_pneumonia.png)
 
 **Validation Data Confusion Matrix**
-![Validation Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_resnet18_validation_cm.png)
+![Confusion Matrix for Class covid-19](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_resnet18_validation_covid19.png)
+
+![Confusion Matrix for Class normal](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_resnet18_validation_normal.png)
+
+![Confusion Matrix for Class pneumonia](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/without_focal_loss_resnet18_validation_pneumonia.png)
 
 
 ## Results With Focal Loss
 ### VGG-16
 Using a learning rate of 0.001 and a single FC Layer of size 1024x3, alpha=4 and gamma=0.8, I got the following results:
 - **Training Accuracy**: 91%
+- **Training F1 Score**: 0.9346
 - **Validation Accuracy**: 91%
+- **Validation F1 Score**: 0.9235
 
 **Training Data Confusiom Matrix**
-![Training Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_vgg16_training_cm.png)
+![Confusion Matrix for Class covid-19](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_vgg16_training_covid19.png)
+
+![Confusion Matrix for Class normal](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_vgg16_training_normal.png)
+
+![Confusion Matrix for Class pneumonia](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_vgg16_training_pneumonia.png)
 
 **Validation Data Confusion Matrix**
-![Validation Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_vgg16_validation_cm.png)
+![Confusion Matrix for Class covid-19](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_vgg16_validation_covid19.png)
+
+![Confusion Matrix for Class normal](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_vgg16_validation_normal.png)
+
+![Confusion Matrix for Class pneumonia](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_vgg16_validation_pneumonia.png)
 
 ### ResNet-18
 Using a learning rate of 0.001 and a single FC Layer of size 430x3, alpha=4 and gamma=0.8, I got the following results:
 - **Training Accuracy**: 87%
+- **Training F1 Score**: 0.9019
 - **Validation Accuracy**: 87%
+- **Validation F1 Score**: 0.8980
 
 **Training Data Confusiom Matrix**
-![Training Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_resnet18_training_cm.png)
+![Confusion Matrix for Class covid-19](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_resnet18_training_covid19.png)
+
+![Confusion Matrix for Class normal](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_resnet18_training_normal.png)
+
+![Confusion Matrix for Class pneumonia](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_resnet18_training_pneumonia.png)
 
 **Validation Data Confusion Matrix**
-![Validation Confusion Matrix](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_resnet18_validation_cm.png)
+![Confusion Matrix for Class covid-19](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_resnet18_validation_covid19.png)
+
+![Confusion Matrix for Class normal](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_resnet18_validation_normal.png)
+
+![Confusion Matrix for Class pneumonia](https://github.com/bscs16033/bscs16033_COVID19_DLSpring2020/blob/master/results/with_focal_loss_resnet18_validation_pneumonia.png)
 
